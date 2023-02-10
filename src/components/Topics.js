@@ -12,15 +12,15 @@ const Topics = () => {
           </Link>
         </li>
         <li>
-          <link to='topics/components'>
+          <Link to='topics/components'>
           <h2 id="components">Components</h2>
-          </link>
+          </Link>
         </li>
       </ul>
       <hr />
-      <link to='/'>
-      <button id="topics-back-button">Back</button>
-      </link>
+     
+      <button id="topics-back-button"> <Link to='/'>Back</Link></button>
+      
     </div>
   );
 };
